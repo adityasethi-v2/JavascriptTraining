@@ -20,23 +20,22 @@ var dataContent = {
 display();
 
 function increment () {
-    console.log('increment');
-    dataContent.number++;
+    dataContent.setNumber = ++dataContent.number;
     display();
 }
 
 function decrement () {
-    dataContent.number--;
+    dataContent.setNumber = --dataContent.number;
     display();
 }
 
 function addition () {
-    dataContent.number = dataContent.number + dataContent.number;
+    dataContent.setNumber = dataContent.number + dataContent.number;;
     display();
 }
 
 function multiplication () {
-    dataContent.number = dataContent.number * dataContent.number;
+    dataContent.setNumber = dataContent.number * dataContent.number;;
     display();
 }
 
