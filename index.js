@@ -45,6 +45,6 @@ function reset() {
 }
 
 function display () {
-    displayNumber.innerHTML = dataContent.getNumber;
+    displayNumber.value = dataContent.getNumber;
 }
 
